@@ -1,0 +1,45 @@
+body {
+    background-image: url("/img/frutas_mesa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 25px;
+    position: relative;
+}
+
+#logo {
+    width: 200px;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+nav {
+    width: 90px;
+    height: 95px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    margin-right: 25px;
+    background-color: white;
+}
+
+nav:hover ul {
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+}
+
+#header nav ul {
+    position: absolute;
+    right: -500px;
+    z-index: 0;
+}
