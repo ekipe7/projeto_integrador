@@ -14,7 +14,7 @@ justify-items: stretch;
 grid-template-rows: auto auto auto;
 }
 
-.gallery-img {
+.gallery-box {
 width: 200px;
 height: 150px;
 border-radius: 25px;
