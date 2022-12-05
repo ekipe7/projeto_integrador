@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+.gallery{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px 200px;    
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}

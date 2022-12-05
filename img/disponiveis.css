@@ -1,0 +1,22 @@
+
+.gallery {
+width: 200px;
+padding: 30px 20px 10px;
+margin: auto;
+box-sizing: border-box;
+justify-content: space-around;
+
+display: grid;
+gap: 20px;
+
+grid-template-columns: auto auto;
+justify-items: stretch;
+grid-template-rows: auto auto auto;
+}
+
+.gallery-img {
+width: 200px;
+height: 150px;
+border-radius: 25px;
+}
+
