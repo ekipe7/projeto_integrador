@@ -5,37 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hilton Mac</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Simonetta:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <header>
-            <div>
-                <div>
-                    <a href="index.html"><img src="img/logo.png" alt="logo" width="110 px"></a>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="sobre.html">Sobre</a></li>
-                            <li><a href="exposicoes.html">Exposições</a></li>
-                            <li><a href="disponiveis.html">Disponíveis</a></li>
-                            <li><a href="curso.html">Curso</a></li>
-                            <li><a href="contato.html">Contato</a></li>
-                        </ul>
-                    </nav>
-                </div>
+    <header>
+        <div class="acima">
+            <a href="index.html"><img src="img/logo.png" alt="logo" width="120 px"></a>
+            <div class="menu">
+                <nav class="dp-menu">
+                    <ul id="nav">
+                        <li><img src="/menu.img/Frame 1.png" alt="menu" width="60px">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="sobre.html">Sobre</a></li>
+                                <li><a href="exposicoes.html">Exposições</a></li>
+                                <li><a href="disponiveis.html">Disponíveis</a></li>
+                                <li><a href="curso.html">Curso</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                            </ul>
+                        </li>
+                    </ul>    
+                </nav>
             </div>
-        </header>
-        <section>
-            <img src="img/mulheres.png" alt="mulheres" width=100%>
-            <img src="img/frutas_mesa.png" alt="frutas"width=100%>
-            <img src="img/crianca_colhendo4.png" alt="criança colhendo"width=100%>
-            <img src="img/cachorros_correndo1.png" alt="cachorros correndo"width=100%>
-            <img src="img/muralha1.png" alt="muralha"width=100%>
-            <img src="img/arquitetura_oriental2.png" alt="arquitetura oriental"width=100%>
+        </div>
+    </header>
+    <main>
+        <section class="imagens">
+            <div class="fila-1">
+                <img src="img/mulheres.png" alt="mulheres" width=100%>
+                <img src="img/frutas_mesa.png" alt="frutas"width=100%>
+            </div>
+            <div class="fila-2">
+                <img src="img/crianca_colhendo4.png" alt="criança colhendo"width=100%>
+                <img src="img/cachorros_correndo1.png" alt="cachorros correndo"width=100%>
+            </div>
+                <div class="fila-3">
+                <img src="img/muralha1.png" alt="muralha"width=100%>
+                <img src="img/arquitetura_oriental2.png" alt="arquitetura oriental"width=100%>
+            </div>
         </section>
-        <footer>
-            <p>Desenvolvido para o projeto integrador do Programa Portal Tec</p>
-        </footer>
-    </div>
+    </main>
+    <footer>
+        <p>Desenvolvido para o projeto integrador do Programa Portal Tec</p>
+    </footer>
+
 </body>
 </html>
