@@ -5,45 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Simonetta:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <header>
-            <div>
-                <div>
-                    <a href="index.html"><img src="img/logo.png" alt="logo" width="110 px"></a>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="sobre.html">Sobre</a></li>
-                            <li><a href="exposicoes.html">Exposições</a></li>
-                            <li><a href="disponiveis.html">Disponíveis</a></li>
-                            <li><a href="curso.html">Curso</a></li>
-                            <li><a href="contato.html">Contato</a></li>
-                        </ul>
-                    </nav>
-                </div>
+    <header>
+        <div class="acima">
+            <a href="index.html"><img src="img/logo.png" alt="logo" width="120 px"></a>
+            <div class="menu">
+                <nav class="dp-menu">
+                    <ul id="nav">
+                        <li><img src="/menu.img/Frame 1.png" alt="menu" width="60px">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="sobre.html">Sobre</a></li>
+                                <li><a href="exposicoes.html">Exposições</a></li>
+                                <li><a href="disponiveis.html">Disponíveis</a></li>
+                                <li><a href="curso.html">Curso</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                            </ul>
+                        </li>
+                    </ul>    
+                </nav>
             </div>
-        </header>
-        <div>
-            <form action="contato">
-                <fieldset>
-                    <legend>Formulario de contato</legend>
-                    <label for="nome">Nome completo</label> <br>
-                    <input type="text" id="nome"> <br>
-                    <label for="email">Email</label> <br>
-                    <input type="email" id="email"> <br>
-                    <label for="telefone">Tefefone</label> <br>
-                    <input type="tel" id="telefone"> <br>
-                    <label for="mensagem">Escreva aqui sua mensagem</label> <br>
-                    <input type="text" id="mensagem"> <br>
-                    <button>Enviar</button>
-                </fieldset>
-            </form>
         </div>
+    </header>
+        <main>
+            <form action="contato">
+                <h1>Formulario de contato</h1>
+                <div class="estilo">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="digite seu nome">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="digite seu email">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="digite seu telefone">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="msg" id="mensagem" cols="30" rows="5"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </main>
         <footer>
             <p>Desenvolvido para o projeto integrador do Programa Portal Tec</p>
         </footer>
-    </div>
 </body>
 </html>
