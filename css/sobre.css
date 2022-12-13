@@ -1,81 +1,86 @@
 body {
-    background-image: url("/img/frutas_mesa.png"); /* Imagem de fundo */
-    background-repeat: no-repeat; /* Para a imagem de fundo não repetir */
-    background-size: cover; /* Para a imagem cobrir todo o fundo */
-    padding: 0; /* Zera o espaço entre borda e conteúdo */
-    margin: 0; /* Zera o espaço entre a borda e o elemento pai */
+    background-image: url("/img/fundo-sobre.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 0; 
+    margin: 0; 
 }
 
-/* Filtro que fica em cima do background  */
-.filtro-fundo{
-    background-color: rgba(145, 32, 77, 0.5); /* Coloca cor de fundo */
-}
-
-/* Cabeçalho */
+/* cabeçalho */
 .cabecalho {
-    display: flex; /* Permite o uso do Flexbox */
-    justify-content: space-between; /* Coloca todo o espaço entre o logo e o menu */
-    width: 90%; /* Deixa o cabeçalho com 90% de largura em relação a janela */
-    margin: auto; /* Ajusta a margin automaticamente */
-    /* height: 25%; */
-    background-color: rgba(44, 22, 28, 0.8); /* Cor de fundo do cabeçalho */
-    border-radius: 25px; /* Arredonda a borda */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(44, 22, 28, 0.8);
+    border-radius: 25px;
 }
-.cabecalho a {
-    margin: 10px 25px 10px; /* Ajusta os margins dos a */
+
+#link-logo {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
 }
 
 #logo {
-    width: 180px; /* Tamanho da logo */
-    border-radius: 20px; /* Arredonda a borda do logo */
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 180px;
+    height: 70px;
+    border-radius: 20px; 
 }
 
 /* Menu dropdown */
 .menu {
-    width: 100px; /* Largura do fundo do menu */
-    height: 90px; /* Altura do fundo do menu */
-    /* padding: auto; */
-    margin-top: auto; /* Ajusta margin de cima */
-    margin-bottom: auto; /* Ajusta o margin de baixo */
-    border-radius: 20px; /* Arredonda a borda */
-    margin-right: 25px; /* Ajusta a margin direita */
-    background-color: #a4566b; /* Cor de fundo do logo */
-    position: relative; /* Permite o uso de absolute no elemento filho */
-    background-image: url("/img/menu.png"); /* Imagem três risquinhos */
+    width: 100px; 
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-right: 25px; 
+    border-radius: 20px;
+    background-color: #a4566b;
+    position: relative; 
+    background-image: url("/img/menu.png"); 
+    background-size: 100% 100%;
 }
 
-.menu:hover ul { /* :hover é quando passa o mouse em cima */
-    position: absolute; /* Desloca do fluxo e deixa em cima de tudo */
-    right: 0; /* Coloca a zero pixels da direita em relação ao elemento pai */
-    top: 90px; /* COloca zero pixels do topo em relação ao elemento pai */
-    display: block; /* Faz aparecer */
-    text-align: end; /* Alinha o texto no final */
+.menu:hover ul { 
+    display: block; 
 }
 
- .menu ul {
-    position: absolute; /*  */
-    display: none; /* Faz desaparecer */
-    margin-top: 0; 
+.menu ul {
+    position: absolute; 
+    display: none; 
+    margin: 0; 
+    right: 0; 
+    top: 70px; 
     background-color: #7c4554;
     border-radius: 25px;
-    width: 250px;
-    height: 500px;
+    width: 428px;
+    height: 600px;
     list-style-type: none;
-    padding: 5px 20px;
+    padding: 0;
 }
 
-.menu ul li a {
-    margin-top: 5px;
+.menu ul a:nth-child(1) {
+    margin-top: 60px;
+}
+
+.menu ul a li {
+    padding: 15px 20px;
+}
+
+.menu ul li:hover {
+    background-color: #c06e83;
+}
+
+.menu ul a {
     color: white;
-    width: 100%;
-}
-
-.menu ul li a {
+    display: block;
+    text-align: right;
     text-decoration: none;
 }
 
+/* CONTEUDO PRINCIPAL */
 /* Fundo do conteúdo principal */
 .fundo-conteudo {
     background-color: rgba(59, 45, 56, 0.5);
@@ -115,7 +120,7 @@ body {
 #foto {
     width: 200px;
     height: 200px;
-    margin-top: 55px;
+    margin-top: 100px;
     border-radius: 25px 25px;
 }
 
@@ -132,5 +137,5 @@ footer {
 footer p {
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
 }
