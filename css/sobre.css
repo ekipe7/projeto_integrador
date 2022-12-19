@@ -1,0 +1,141 @@
+body {
+    background-image: url("/img/fundo-sobre.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 0; 
+    margin: 0; 
+}
+
+/* cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(44, 22, 28, 0.8);
+    border-radius: 25px;
+}
+
+#link-logo {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 180px;
+    height: 70px;
+    border-radius: 20px; 
+}
+
+/* Menu dropdown */
+.menu {
+    width: 100px; 
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-right: 25px; 
+    border-radius: 20px;
+    background-color: #a4566b;
+    position: relative; 
+    background-image: url("/img/menu.png"); 
+    background-size: 100% 100%;
+}
+
+.menu:hover ul { 
+    display: block; 
+}
+
+.menu ul {
+    position: absolute; 
+    display: none; 
+    margin: 0; 
+    right: 0; 
+    top: 70px; 
+    background-color: #7c4554;
+    border-radius: 25px;
+    width: 428px;
+    height: 600px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul a:nth-child(1) {
+    margin-top: 60px;
+}
+
+.menu ul a li {
+    padding: 15px 20px;
+}
+
+.menu ul li:hover {
+    background-color: #c06e83;
+}
+
+.menu ul a {
+    color: white;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+
+/* CONTEUDO PRINCIPAL */
+/* Fundo do conteúdo principal */
+.fundo-conteudo {
+    background-color: rgba(59, 45, 56, 0.5);
+    width: 90%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+/* Texto do conteúdo principal */
+#parte-texto p {
+    color: white;
+    text-shadow: 1px 1px 1px 1px black;
+    text-align: center;
+    font-size: 18px;
+}
+
+#parte-texto h2 {
+    color: white;
+    text-shadow: 1px 1px 1px 1px black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#parte-texto {
+    width: 40%;
+    padding-top: 40px;
+}
+
+/* Imagem do conteúdo principal */
+#foto {
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 25px 25px;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgba(44, 22, 28, 1);
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
