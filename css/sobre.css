@@ -20,7 +20,7 @@ body {
 }
 
 #link-logo {
-    width: 15%;
+    width: 18%;
     height: 80%;
     margin-left: 35px;
     margin-top: 8px;
@@ -38,7 +38,7 @@ body {
 /* Menu dropdown */
 .menu {
     width: 8%;
-    height: 85%;
+    height: 65%;
     margin-right: 25px; 
     margin-top: auto;
     margin-bottom: auto;
@@ -91,10 +91,10 @@ body {
 .fundo-conteudo {
     background-color: rgba(59, 45, 56, 0.5);
     width: 90%;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     border-radius: 18px;
     display: flex;
     padding-bottom: 30px;
