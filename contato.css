@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/img/fundocontato.png);
+    
+}
+
+
+a img{
+    border-radius: 10px;
+}
+
+header{
+    background-color: #2C161C;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ul{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+
+.acima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+:root{
+    --cor-fundo : #2C161C;
+    --cor-hover : #A4566B;
+    --cor-primaria : #FFF6FD;
+}
+
+
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dp-menu ul li a:hover{
+    background-color: var(--cor-hover);
+}
+
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    position: absolute;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+
+}
+
+form{
+    font-family: 'Simonetta', cursive;
+    color: #2C161C;
+    font-size: 20px;
+
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+form input[type=submit] {
+    background-color: #A4566B;
+    color: white;
+    cursor: pointer;
+}
+
+form label{
+    margin-left: 15px;
+}
+
+.estilo {
+    background-color: #d2a9a9bd;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+form{
+    background-color: #7a717185;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+footer{
+    margin: 20px;
+    display: block;
+    color: #FFF6FD;
+    background-color: #2C161C;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Simonetta', cursive;
+    font-size: 20px;
+}
