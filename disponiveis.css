@@ -6,6 +6,11 @@
     font-size: 16px;
 }
 
+body {
+    background: url(/img/layout/fundoDisponiveis.jpeg);
+    background-size: cover;
+}
+
 .gallery{
     width: 90%;
     margin: auto;
@@ -28,3 +33,4 @@
     height: 40vh;
     border-radius: 25px;
 }
+
