@@ -49,19 +49,3 @@ body {
     margin-top: 100px;
     border-radius: 18px;
 }
-
-/* Rodapé */
-footer {
-    background-color: rgba(44, 22, 28, 1);
-    height: 8%;
-    border-radius: 20px 20px 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer p {
-    text-align: center;
-    color: white;
-    font-size: 18px;
-}
