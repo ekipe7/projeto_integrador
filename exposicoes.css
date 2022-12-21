@@ -1,0 +1,44 @@
+body{
+background-image: url(img/cadeira_na_varanda1.png) ; background-repeat: no-repeat ; background-position: center ;
+background-color:#4d162d ;
+background-size: cover;
+}
+
+.expo{
+    width: 45%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    background-color: #3b2d387a;
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 70px; 
+}
+
+figcaption{
+text-align: center;
+justify-content: center;
+font-family: sans-serif;
+background-color:#4d162d ;
+}
+
+.fila-1{
+    display: flex;
+    width: 350px;
+    gap: auto;
+}
+
+.fila-2{
+    display: flex;
+    width: 350px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.fila-3{
+    display: flex;
+    width: 350px;
+    gap: 30px;
+    margin-top: 20px;
+}
