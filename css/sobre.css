@@ -7,7 +7,7 @@ body {
     height: 100vh;
 }
 
-/* cabeçalho */
+/* cabeçalho
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ body {
     border-radius: 15px; 
 }
 
-/* Menu dropdown */
+/* Menu dropdown 
 .menu {
     width: 8%;
     height: 65%;
@@ -84,7 +84,7 @@ body {
     display: block;
     text-align: right;
     text-decoration: none;
-}
+} */
 
 /* CONTEUDO PRINCIPAL */
 /* Fundo do conteúdo principal */
