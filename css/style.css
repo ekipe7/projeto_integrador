@@ -40,7 +40,7 @@ body {
     border-radius: 15px;
     background-color: #a4566b;
     position: relative; 
-    background-image: url("/img/menu.png"); 
+    background-image: url("../img/menu.png"); 
     background-size: 100% 100%;
 }
 

@@ -1,0 +1,78 @@
+
+body{
+    background: url(../img/contato.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 100vt;
+
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 80%; */
+    margin: 40px;
+
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+
+}
+
+form{
+    font-family: 'Simonetta', cursive;
+    color: #2C161C;
+    font-size: 20px;
+
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+form input[type=submit] {
+    background-color: #A4566B;
+    color: white;
+    cursor: pointer;
+}
+
+form label{
+    margin-left: 15px;
+}
+
+.estilo {
+    background-color: #d2a9a9bd;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+form{
+    background-color: #7a717185;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}

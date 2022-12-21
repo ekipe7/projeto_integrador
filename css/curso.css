@@ -1,11 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body{
-    background: url(/img/fundocurso.png);
-    
+    background: url(../img/fundocurso.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
 }
 
 
@@ -148,17 +147,4 @@ ul{
     background-color: #d2a9a9b0;
     padding: 40px;
     border-radius: 20px;
-}
-
-footer{
-    margin: 20px;
-    display: block;
-    color: #FFF6FD;
-    background-color: #2C161C;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    font-family: 'Simonetta', cursive;
-    font-size: 20px;
-    align-items: center;
 }
