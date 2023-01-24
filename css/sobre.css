@@ -2,6 +2,7 @@ body {
     background-image: url("../img/fundo-sobre.png");
     background-repeat: no-repeat;
     background-size: cover; 
+    background-attachment: fixed;
     padding: 0; 
     margin: 0; 
 }

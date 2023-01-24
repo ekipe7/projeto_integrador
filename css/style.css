@@ -39,35 +39,29 @@ body {
     margin-bottom: auto;
     border-radius: 15px;
     background-color: #a4566b;
-    position: relative; 
     background-image: url("../img/menu.png"); 
     background-size: 100% 100%;
 }
 
-.menu:hover ul { 
-    display: block; 
-}
-
 .menu ul {
-    position: absolute; 
+    position: fixed; 
     display: none; 
-    margin: 0; 
-    right: 0; 
-    top: 100%; 
-    background-color: #7c4554;
-    border-radius: 20px;
-    width: 150px;
-    height: 380px;
+    margin: 0;
+    right: 0;
+    top: -1px; 
+    background-color: rgb(124, 69, 84);
+    width: 35vw;
+    height: 100vh;
     list-style-type: none;
     padding: 0;
 }
 
-.menu ul a:nth-child(1) {
-    margin-top: 40px;
+.menu ul a:nth-child(2) {
+    margin-top: 70px;
 }
 
 .menu ul a li {
-    padding: 15px 20px;
+    padding: 15px 40px;
     font-size: 18px;
 }
 
@@ -82,6 +76,15 @@ body {
     text-decoration: none;
 }
 
+@keyframes abrir {
+    from {width: 0;}
+    to {width: 35vw;}
+}
+
+@keyframes fechar {
+    from {width: 35vw;}
+    to {width: 0;}
+}
 
 /* Rodapé */
 footer {
