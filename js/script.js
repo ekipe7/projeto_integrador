@@ -14,6 +14,7 @@ fechar.style.width = "50px";
 fechar.style.height = "50px";
 fechar.style.top = "8%";
 fechar.style.right = "-10px";
+fechar.style.cursor = "pointer";
 fechar.style.borderRadius = "10px";
 fechar.style.backgroundImage = "url(img/fechar.png)";
 fechar.style.backgroundSize = "100% 100%";
@@ -38,7 +39,7 @@ fechar.addEventListener("click", function(e){
     setTimeout(function(){
         // Tira o menu
         ul.style.display = "";
-    }, 1100)
+    }, 1700)
 
     // Impede que o evento menu seja encadeado
     e.stopImmediatePropagation();

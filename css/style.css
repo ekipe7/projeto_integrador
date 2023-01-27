@@ -41,6 +41,7 @@ body {
     background-color: #a4566b;
     background-image: url("../img/menu.png"); 
     background-size: 100% 100%;
+    cursor: pointer;
 }
 
 .menu ul {
@@ -54,6 +55,7 @@ body {
     height: 100vh;
     list-style-type: none;
     padding: 0;
+    cursor: default;
 }
 
 .menu ul a:nth-child(2) {
