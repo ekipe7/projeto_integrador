@@ -76,3 +76,31 @@ form{
     padding-bottom: 30px;
     border-radius: 20px;
 }
+
+.ajuda {
+    display: none;
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    color: #DFDFDF;
+    font-weight: bold;
+    font-size: .4rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+
+  .estilo div {
+    position: relative;
+  }

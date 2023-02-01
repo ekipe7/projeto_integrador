@@ -176,8 +176,6 @@ send.addEventListener("click", function(e){
         inputsCorretos.confirmasenha == false )
     {
         e.preventDefault();
-        alert("É necessário preencher todos os campos obrigatórios corretamente");
-    } else {
-        alert("Formulário enviado com sucesso");
+        alert("É necessário preencher todos os campos corretamente");
     }
 })

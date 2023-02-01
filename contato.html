@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Simonetta:ital@1&display=swap" rel="stylesheet">
+    <script src="js/contato.js" defer></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -24,24 +26,29 @@
         </nav>
     </header>
         <main>
-            <form action="contato">
+            <form action="">
                 <h1>Formulario de contato</h1>
                 <div class="estilo">
                     <div>
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome" placeholder="digite seu nome">
+                        <p class="ajuda"> Nome inválido! Digite pelo menos 3 letras.</p>
                     </div>
                     <div>
                         <label for="email">Email</label>
                         <input type="text" name="email" id="email" placeholder="digite seu email">
+
+                        <p class="ajuda"> E-mail inválido! Deve conter '@' e '.com'.</p>
                     </div>
                     <div>
                         <label for="telefone">Telefone</label>
                         <input type="tel" name="telefone" id="telefone" placeholder="digite seu telefone">
+                        <p class="ajuda"> Número inválido! </p>
                     </div>
                     <div>
                         <label for="mensagem">Mensagem</label>
                         <textarea name="msg" id="mensagem" cols="30" rows="5"></textarea>
+                        <p class="ajuda">Texto não pode estar vazio. </p>
                     </div>
                     <input type="submit" value="Enviar">
                 </div>
