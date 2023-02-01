@@ -5,37 +5,9 @@ body{
     padding: 0;
     margin: 0;
     height: 100vh;
+    position: relative;
+    font-size: 14px;
 }
-
-
-a img{
-    border-radius: 10px;
-}
-
-header{
-    background-color: #2C161C;
-    margin: 30px;
-    padding: 10px;
-    border-radius: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-ul{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-}
-
-
-.acima{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-
-
 
 :root{
     --cor-fundo : #2C161C;
@@ -43,67 +15,19 @@ ul{
     --cor-primaria : #FFF6FD;
 }
 
-
-
-.dp-menu ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-.dp-menu ul{
-    background-color: var(--cor-fundo);
-}
-
-.dp-menu ul li{
-    display: inline-block;
-    position: relative;
-}
-
-.dp-menu ul li a {
-    color: var(--cor-primaria);
-    text-decoration: none;
-    padding: 10px;
-}
-
-.dp-menu ul li a:hover{
-    background-color: var(--cor-hover);
-}
-
-.dp-menu ul ul {
-    display: none;
-    left: 0;
-    position: absolute;
-}
-
-.dp-menu ul li:hover ul {
-    display: block;
-}
-
-.dp-menu ul ul {
-    position: absolute;
-}
-
-.dp-menu ul ul li a {
-    display: block;
-}
-
-ul{
-    list-style: none;
-}
 .container{
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
     background-color: #7a717185;
     border-radius: 50px;
-    
-
 }
-
-
 
 .box{
     padding: 40px;
@@ -114,7 +38,6 @@ ul{
 }
 
 .box2{
-    
     padding: 40px;
     border-radius: 20px;
     gap: 20px;
@@ -147,4 +70,110 @@ ul{
     background-color: #d2a9a9b0;
     padding: 40px;
     border-radius: 20px;
+}
+
+#inscreva {
+    margin: 50px 100px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(122, 113, 113, 0.75);
+    border-radius: 50px;
+}
+
+#botao {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgba(44, 22, 28, 1);
+    margin: 5px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+#form-container {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(82, 76, 78, 0.882);
+    top: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 78%;
+    background-color: rgba(44, 22, 28, 1);
+    border-radius: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.4em;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    padding: 0 10%;
+    margin: 0;
+    font-size: 16px;
+    position: relative;
+}
+
+#close {
+    color: white;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: -20px;
+    right: 10%;
+    color: #DFDFDF;
+    font-weight: bold;
+    font-size: .4rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+
+input {
+    font-size: 16px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.ajuda {
+    display: none;
+    margin: 0;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+button[type='submit'] {
+    width: auto;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
 }
