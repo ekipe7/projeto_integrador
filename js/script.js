@@ -10,8 +10,8 @@ fechar.innerText = " ";
 
 /* Estilizando botão fechar */
 fechar.style.position = "relative";
-fechar.style.width = "50px";
-fechar.style.height = "50px";
+fechar.style.width = "16%";
+fechar.style.height = "10%";
 fechar.style.top = "8%";
 fechar.style.right = "-10px";
 fechar.style.cursor = "pointer";
@@ -28,7 +28,7 @@ menu.addEventListener("click", function(){
 
     // Mostra o menu
     ul.style.animationName = "abrir";
-    ul.style.animationDuration = "2s";
+    ul.style.animationDuration = "1s";
     ul.style.display = "block";
 });
 
@@ -39,7 +39,7 @@ fechar.addEventListener("click", function(e){
     setTimeout(function(){
         // Tira o menu
         ul.style.display = "";
-    }, 1700)
+    }, 1200)
 
     // Impede que o evento menu seja encadeado
     e.stopImmediatePropagation();

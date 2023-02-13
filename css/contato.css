@@ -2,10 +2,10 @@
 body{
     background: url(../img/contato.png);
     background-size: cover;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
-    height: 100vt;
-
+    height: 100vh;
 }
 
 
@@ -13,8 +13,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 80%; */
     margin: 40px;
+    margin-top: 28px;
 
 }
 
@@ -28,21 +28,24 @@ h1{
 
 }
 
+label {
+    font-weight: bold;
+}
+
 form{
     font-family: 'Simonetta', cursive;
     color: #2C161C;
     font-size: 20px;
-
 }
 
 form div{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 form input, form textarea{
-    outline: unset;
+    /* outline: unset; */
     padding: 20px;
     width: 300px;
     border: 1px solid white;
@@ -53,6 +56,7 @@ form input[type=submit] {
     background-color: #A4566B;
     color: white;
     cursor: pointer;
+    margin: auto;
 }
 
 form label{

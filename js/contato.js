@@ -2,9 +2,6 @@ let inputs = document.querySelectorAll("input");
 let msg = document.querySelector("#mensagem");
 let labels = document.querySelectorAll("label");
 let ajudas = document.querySelectorAll(".ajuda");
-console.log(inputs);
-console.log(labels);
-console.log(ajudas);
 
 
 inputs[0].addEventListener("focus", function(){

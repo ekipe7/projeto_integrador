@@ -1,22 +1,10 @@
 body{
     background-image: url(../img/layout/fundoDisponiveis.jpeg) ;
     background-repeat: no-repeat; 
-    /*background-position: center*/ ;
+    background-attachment: fixed;
     background-color:#4d162d ;
     background-size: cover;
 }
-
-/* .expo{
-    width: 45%;
-    margin: auto;
-    display: block;
-    border-radius: 10px;
-    background-color: #3b2d387a;
-    padding-right: 0;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 70px; 
-} */
 
 figcaption{
 text-align: center;
@@ -31,14 +19,8 @@ background-color:#4d162d ;
     display: block;
     border-radius: 10px;
     background-color: #3b2d387a;
-    /* padding-right: 0;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 70px;  */
-
-    padding: 30px 0 30px 0;
-    
-    
+    padding: 30px 0 30px 0;   
+    margint-top: 28px; 
 }
 
 .fila-1{
