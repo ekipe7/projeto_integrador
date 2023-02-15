@@ -17,12 +17,12 @@ div.innerHTML = `
             <label for="nome">Nome:&nbsp;</label>
             <input id="nome" name="nome" placeholder="Digite seu nome">
         </p>
-        <p class="ajuda"> Nome inválido! Digite pelo menos 3 letras.</p>
+        <p class="ajuda"> Nome inválido! Digite pelo menos 3 letras por nome.</p>
         <p class="forms">
             <label for="sobrenome">Sobrenome: </label>
             <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
         </p>
-        <p class="ajuda"> Sobrenome inválido! Digite pelo menos 3 letras.</p>
+        <p class="ajuda"> Sobrenome inválido! Digite pelo menos 2 letras por palavra.</p>
         <p class="forms">
             <label for="email">E-mail: </label>
             <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
@@ -57,7 +57,7 @@ nome[0].addEventListener("focus", function(){
 nome[0].addEventListener("blur", function(e){
     nomeLabel[0].classList.remove("required-popup");
 
-    if(!/^[a-zA-Z]{3,35}$/i.test(e.target.value)){
+    if(!/^[a-z]{3,15}(\s+[a-z]{3,15})*$/i.test(e.target.value)){
         ajuda[0].style.display = "block";
     } else {
         ajuda[0].style.display = "none";
@@ -72,7 +72,7 @@ nome[1].addEventListener("focus", function(){
 nome[1].addEventListener("blur", function(e){
     nomeLabel[1].classList.remove("required-popup");
 
-    if(!/^[a-z]{3,15}(\s+[a-z]{3,15})*$/i.test(e.target.value)){
+    if(!/^[a-z]{2,15}(\s+[a-z]{2,15})*$/i.test(e.target.value)){
         ajuda[1].style.display = "block";
     } else {
         ajuda[1].style.display = "none";

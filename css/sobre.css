@@ -50,3 +50,54 @@ body {
     margin-top: 100px;
     border-radius: 18px;
 }
+
+
+/* MEDIA QUERIES */
+@media (min-width: 1024px){
+    .fundo-conteudo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .fundo-conteudo {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #parte-texto {
+        width: 70%;
+        padding-top: 15px;
+    }
+
+    #parte-texto p {
+        font-size: 16px;
+    }
+
+    #parte-texto h2 {
+        font-size: 24px;
+    }
+
+    #foto {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 480px){
+    #foto {
+        margin-top: 35px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #parte-texto p {
+        font-size: 14px;
+    }
+
+    #parte-texto h2 {
+        font-size: 20px;
+    }
+}
