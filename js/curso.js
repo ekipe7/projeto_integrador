@@ -57,7 +57,7 @@ nome[0].addEventListener("focus", function(){
 nome[0].addEventListener("blur", function(e){
     nomeLabel[0].classList.remove("required-popup");
 
-    if(!/^[a-zA-Z0-9]{3,35}$/i.test(e.target.value)){
+    if(!/^[a-zA-Z]{3,35}$/i.test(e.target.value)){
         ajuda[0].style.display = "block";
     } else {
         ajuda[0].style.display = "none";
@@ -72,7 +72,7 @@ nome[1].addEventListener("focus", function(){
 nome[1].addEventListener("blur", function(e){
     nomeLabel[1].classList.remove("required-popup");
 
-    if(!/^[a-zA-Z0-9]{3,35}$/i.test(e.target.value)){
+    if(!/^[a-z]{3,15}(\s+[a-z]{3,15})*$/i.test(e.target.value)){
         ajuda[1].style.display = "block";
     } else {
         ajuda[1].style.display = "none";

@@ -11,7 +11,7 @@ inputs[0].addEventListener("focus", function(){
 inputs[0].addEventListener("blur", function(e){
     labels[0].classList.remove("required-popup");
 
-    if(!/^[a-zA-Z0-9]{3,35}$/i.test(e.target.value)){
+    if(!/^[a-z]{3,15}(\s+[a-z]{1,})*$/i.test(e.target.value)){
         ajudas[0].style.display = "block";
     } else {
         ajudas[0].style.display = "none";
